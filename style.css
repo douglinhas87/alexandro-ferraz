@@ -89,10 +89,14 @@ nav {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  max-height: 40px;
+  width: auto;
 }
 
 .hamburger {
@@ -151,7 +155,7 @@ nav {
 .hero {
   background: 
     linear-gradient(rgba(44, 91, 138, 0.85), rgba(58, 123, 184, 0.8)),
-    url('images/hero-bg.jpg') center center / cover no-repeat fixed;
+    url('images/banners/hero-bg.png') center center / cover no-repeat fixed;
   color: white;
   text-align: center;
   padding: 180px 0 100px;
@@ -780,6 +784,10 @@ footer {
     font-size: 1.2rem;
   }
   
+  .logo img {
+    height: 32px;
+  }
+
   .hero h1 {
     font-size: 1.8rem;
   }
